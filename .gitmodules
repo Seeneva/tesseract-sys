@@ -1,0 +1,4 @@
+[submodule "vendor/tesseract"]
+	path = vendor/tesseract
+	url = https://github.com/tesseract-ocr/tesseract.git
+	branch = master

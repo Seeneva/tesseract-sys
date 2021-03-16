@@ -1,0 +1,22 @@
+[package]
+name = "tesseract-sys"
+version = "0.1.0"
+authors = ["Sergei Solodovnikov <sergei@isolo.me>"]
+edition = "2018"
+links = "tesseract"
+build = "build.rs"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+pkg-config = "0.3"
+autotools = "0.2.2"
+bindgen = "0.55"
+build-deps = "0.1"
+cc = "1.0"
+build-helper = { git = "https://github.com/Seeneva/build-helper-rs.git", branch = "main" }
+
+[dependencies]
+libc = "0.2"
+leptonica-sys = { git = "https://github.com/Seeneva/leptonica-sys.git", branch = "main" }
