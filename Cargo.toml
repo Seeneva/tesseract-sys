@@ -1,6 +1,6 @@
 [package]
 name = "tesseract-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Sergei Solodovnikov <sergei@isolo.me>"]
 edition = "2018"
 links = "tesseract"
@@ -11,7 +11,7 @@ readme = "README.md"
 
 [build-dependencies]
 pkg-config = "0.3"
-autotools = "0.2.2"
+autotools = "=0.2.3"
 bindgen = "0.55"
 build-deps = "0.1"
 cc = "1.0"
